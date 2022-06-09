@@ -16,7 +16,7 @@
 </script>
 
 <div>
-	<ul class="flex overflow-x-auto gap-6 snap-x snap-mandatory">
+	<ul class="flex overflow-x-auto gap-6 snap-x snap-center snap-mandatory">
 		{#each images as { src, alt }}
 			<li class="shrink-0 snap-center">
 				<img {src} {alt} class="rounded-md" />

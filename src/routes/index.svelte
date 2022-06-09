@@ -19,12 +19,6 @@
 
 <main class="relative overflow-x-hidden">
 	<div class="fixed z-40 top-0 inset-x-0">
-		<!-- <div
-			class="absolute h-[450px] w-[450px] rounded-full bg-gradient-to-br from-primary to-[#F28B0E] right-[65px] -top-[280px]"
-		/>
-		<div
-			class="absolute h-[200px] w-[200px] rounded-full bg-gradient-to-br from-primary to-[#F28B0E] -right-[80px] -top-[60px]"
-		/> -->
 		<Navbar />
 	</div>
 
@@ -121,7 +115,10 @@
 					<h1>Tu cliente</h1>
 					<h1>Es nuestra prioridad</h1>
 				</span>
-				<p><b class="font-semibold">La Atención al Cliente es fundamental</b>, así que nos ocupamos de que tengas todas las herramientas para mantenera los tuyos felices. <b class="font-semibold">¿Sabes cuáles son los servicios que incluimos?</b></p>
+				<p>
+					<b class="font-semibold">La Atención al Cliente es fundamental</b>, así que nos ocupamos de que tengas todas las herramientas para mantenera
+					los tuyos felices. <b class="font-semibold">¿Sabes cuáles son los servicios que incluimos?</b>
+				</p>
 				<Button text="Ver Servicios" variant="primary" />
 			</div>
 		</div>
