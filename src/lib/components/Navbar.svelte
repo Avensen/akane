@@ -1,6 +1,6 @@
 <script>
 	import SearchInput from './SearchInput.svelte';
-	import { fade, fly, slide, draw } from 'svelte/transition';
+	import { slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
 	const navigation = [
@@ -29,12 +29,13 @@
 				</div>
 				<div class="hidden lg:ml-6 lg:flex lg:space-x-8">
 					<!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
-					{#each navigation as nav}
+					{#each navigation as { name, href }}
 						<a
-							href={nav.href}
+							{href}
 							class="border-transparent text-gray-500 hover:border-secondary hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-normal transition ease-in-out duration-150"
-							>{nav.name}</a
 						>
+							{name}
+						</a>
 					{/each}
 				</div>
 			</div>
