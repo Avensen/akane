@@ -1,4 +1,4 @@
-export let iconCardsInfo = [
+export const iconCardsInfo = [
 	{
 		icon: 'bi bi-headset',
 		title: 'Atención al Cliente',

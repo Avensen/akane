@@ -1,4 +1,4 @@
-export let blogCardsInfo = [
+export const blogCardsInfo = [
 	{
 		text: '<b class="font-semibold">¿Miedo al fracaso?</b><br />Tips para enfrentarlo',
 		image: 'dimg_1.png'

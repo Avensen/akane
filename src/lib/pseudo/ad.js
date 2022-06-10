@@ -1,4 +1,4 @@
-export let adCardsInfo = [
+export const adCardsInfo = [
 	{
 		title: 'Crea tu identidad',
 		text: 'Una identidad hecha a tu medida. Todo lo que necesitas para diferenciarte de la competencia',

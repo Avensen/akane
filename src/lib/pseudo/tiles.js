@@ -1,4 +1,4 @@
-export let tilesInfo = [
+export const tilesInfo = [
 	{
 		icon: 'grid-icons/Respeto.svg',
 		title: 'Respeto'
