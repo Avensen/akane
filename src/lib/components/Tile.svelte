@@ -1,6 +1,6 @@
 <script>
-	export const icon = '';
-	export const title = '';
+	export let icon = '';
+	export let title = '';
 
 	const size = 16;
 </script>
