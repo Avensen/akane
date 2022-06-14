@@ -3,6 +3,8 @@
 	import { slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
+	import { _ } from 'svelte-i18n'
+
 	const navigation = [
 		{ name: 'Inicio', href: '/' },
 		{ name: 'Tu Cuenta', href: '/' },
@@ -40,7 +42,7 @@
 				</div>
 			</div>
 			<div class="flex-1 flex items-center justify-center px-2 lg:ml-6 lg:justify-end">
-				<SearchInput />
+				<SearchInput /> {$_('site')}
 			</div>
 			<div class="flex items-center lg:hidden">
 				<!-- Mobile menu button -->

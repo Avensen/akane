@@ -29,6 +29,7 @@
 	"type": "module",
 	"dependencies": {
 		"bootstrap-icons": "^1.8.3",
-		"daisyui": "^2.15.2"
+		"daisyui": "^2.15.2",
+		"svelte-i18n": "^3.4.0"
 	}
 }
