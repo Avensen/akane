@@ -18,10 +18,6 @@
 </svelte:head>
 
 <main class="relative overflow-x-hidden">
-	<div class="fixed z-40 top-0 inset-x-0">
-		<Navbar />
-	</div>
-
 	<!-- Hero -->
 	<section class="py-16 bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50">
 		<div class="max-w-8xl pt-14 mx-auto">

@@ -28,6 +28,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltestack/svelte-query": "^1.6.0",
 		"bootstrap-icons": "^1.8.3",
 		"daisyui": "^2.15.2",
 		"svelte-i18n": "^3.4.0"

@@ -3,7 +3,7 @@
 	import { slide } from 'svelte/transition';
 	import { quintOut } from 'svelte/easing';
 
-	import { _ } from 'svelte-i18n'
+	import { t, locale, locales, format } from 'svelte-i18n';
 
 	const navigation = [
 		{ name: 'Inicio', href: '/' },
@@ -26,8 +26,8 @@
 		<div class="flex justify-between h-16">
 			<div class="flex px-2 lg:px-0">
 				<div class="flex-shrink-0 flex items-center">
-					<img class="block lg:hidden h-8 w-auto" src="logo.svg" alt="Workflow" />
-					<img class="hidden lg:block h-8 w-auto" src="logo.svg" alt="Workflow" />
+					<img class="block lg:hidden h-8 w-auto" src="logo.svg" alt="Akane" />
+					<img class="hidden lg:block h-8 w-auto" src="logo.svg" alt="Akane" />
 				</div>
 				<div class="hidden lg:ml-6 lg:flex lg:space-x-8">
 					<!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
@@ -42,7 +42,7 @@
 				</div>
 			</div>
 			<div class="flex-1 flex items-center justify-center px-2 lg:ml-6 lg:justify-end">
-				<SearchInput /> {$_('site')}
+				<SearchInput />
 			</div>
 			<div class="flex items-center lg:hidden">
 				<!-- Mobile menu button -->
