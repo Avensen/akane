@@ -1,6 +1,5 @@
 <script>
 	import Carousel from '$lib/components/Carousel.svelte';
-	import Navbar from '$lib/components/Navbar.svelte';
 	import IconCard from '$lib/components/IconCard.svelte';
 	import AdCard from '$lib/components/AdCard.svelte';
 	import Button from '$lib/components/Button.svelte';
@@ -11,6 +10,8 @@
 	import { adCardsInfo } from '$lib/pseudo/ad';
 	import { blogCardsInfo } from '$lib/pseudo/blog';
 	import { tilesInfo } from '$lib/pseudo/tiles';
+
+	import { t } from 'svelte-i18n';
 </script>
 
 <svelte:head>
@@ -22,7 +23,9 @@
 	<section class="py-16 bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50">
 		<div class="max-w-8xl pt-14 mx-auto">
 			<div class="px-8">
-				<h3 class="uppercase text-center mb-8"><b class="font-bold">Te ayudamos</b> con tu negocio</h3>
+				<h3 class="uppercase text-center mb-8">
+					{@html $t('home.hero.title')}
+				</h3>
 				<ul class="grid grid-cols-1 gap-16 mx-2 sm:mx-24 lg:grid-cols-3 place-content-center">
 					{#each iconCardsInfo as item}
 						<li class="grid">
@@ -37,24 +40,7 @@
 	<!-- Hero -->
 
 	<!-- Section 1 -->
-	<!-- <section class="bg-zinc-50">
-		<div class="mx-auto max-w-7xl py-28 px-10">
-			<div class="relative"> -->
-	<!-- <div
-					class="absolute h-[230px] w-[230px] rounded-full bg-gradient-to-br from-[#FFBD6E] to-[#F28B0E] -left-[50px] top-[50px]"
-				/> -->
-	<!-- <ul class="flex justify-between space-x-12">
-					{#each iconCardsInfo as item}
-						<li class="basis-1/3">
-							<IconCard {...item} />
-						</li>
-					{/each}
-				</ul>
-			</div>
-		</div>
-	</section> -->
-
-	<!-- Section 1 -->
+	<!-- /Section 1 -->
 
 	<!-- Section 2 -->
 	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 py-12">
@@ -66,7 +52,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- Section 2 -->
+	<!-- /Section 2 -->
 
 	<!-- Section 3 -->
 	<section class="bg-gradient-to-t from-primary/80 to-secondary/80">
@@ -86,7 +72,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- Section 3 -->
+	<!-- /Section 3 -->
 
 	<!-- Section 4 -->
 	<section class="">
@@ -101,7 +87,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- Section 4 -->
+	<!-- /Section 4 -->
 
 	<!-- Section 5 -->
 	<section class="bg-gradient-to-t from-black/80 to-zinc-600/50 text-white" style:background="url('client-support.jpg')">
@@ -119,7 +105,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- Section 5 -->
+	<!-- /Section 5 -->
 
 	<!-- Section 6 -->
 	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50">
@@ -133,7 +119,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- Section 6 -->
+	<!-- /Section 6 -->
 
 	<!-- Section 7 -->
 	<!-- Section 7 -->
@@ -149,7 +135,7 @@
 			</div>
 		</div>
 	</section>
-	<!-- Section 8 -->
+	<!-- /Section 8 -->
 
 	<!-- <footer class="bg-gradient-to-t from-primary to-secondary py-32" style="background-image: url('footer_bg.png'); background-size: cover; opacity: 90%;">
 		<div class="max-w-7xl mx-auto text-center text-white">

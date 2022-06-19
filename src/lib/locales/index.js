@@ -1,12 +1,11 @@
-import {  init, getLocaleFromNavigator, addMessages } from 'svelte-i18n';
+import { init, getLocaleFromNavigator, register } from 'svelte-i18n';
 
-import es from './es.json';
-import en from './en.json';
-
-addMessages('es', es);
-addMessages('en', en);
-
-// register('es', () => {import('./es.json')})
+register('es', () => {
+	import('./es.json');
+});
+register('en', () => {
+	import('./en.json');
+});
 
 init({
 	fallbackLocale: 'en',

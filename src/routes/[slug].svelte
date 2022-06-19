@@ -1,11 +1,7 @@
 <script>
 	import { page } from '$app/stores';
-	
+
 	// import { searchParams } from '$lib/hooks/pageParams'
-
-	
-
-	
 
 	let slug = $page.params.slug;
 	let obj = $page.url.searchParams;
@@ -42,7 +38,7 @@
 	<div class="text-sky-200 flex justify-center items-center">
 		{name}
 	</div>
-   <button
+	<button
 		on:click={click}
 		class="px-6 py-2 border-2 border-pink-400 text-pink-400 my-14 hover:bg-pink-400 hover:text-slate-900 transition ease-in-out duration-100"
 	>
@@ -56,6 +52,4 @@
 	>
 		fetch
 	</button>
-
-	
 </section>
