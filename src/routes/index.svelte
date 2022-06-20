@@ -35,7 +35,7 @@
 					{/each}
 				</ul>
 				<div class="pt-20 flex">
-					<!-- <Horizontal /> -->
+					<Horizontal />
 					<!-- <img src="banner_hero.png" class="w-[450px] hidden lg:inline-block lg:absolute z-50 -bottom-20 left-[15%]" alt="carousel item" /> -->
 				</div>
 			</div>

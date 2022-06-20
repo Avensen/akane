@@ -14,17 +14,17 @@ const config = {
 		}
 	},
 
-	// plugins: [require('daisyui')],
-	// daisyui: {
-	// 	styled: false,
-	// 	themes: false,
-	// 	base: true,
-	// 	utils: true,
-	// 	logs: true,
-	// 	rtl: false,
-	// 	prefix: '',
-	// 	darkTheme: 'dark'
-	// }
+	plugins: [require('daisyui')],
+	daisyui: {
+		styled: false,
+		themes: false,
+		base: true,
+		utils: true,
+		logs: true,
+		rtl: false,
+		prefix: '',
+		darkTheme: 'dark'
+	}
 };
 
 module.exports = config;
