@@ -15,7 +15,7 @@
 	];
 </script>
 
-<div>
+<div class="example">
 	<ul class="flex overflow-x-auto gap-6 snap-x snap-center snap-mandatory">
 		{#each images as { src, alt }}
 			<li class="shrink-0 snap-center">
@@ -24,3 +24,16 @@
 		{/each}
 	</ul>
 </div>
+
+
+<style lang="postcss">
+	.example::-webkit-scrollbar {
+		display: none;
+	}
+
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.example {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+</style>
