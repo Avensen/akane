@@ -23,6 +23,6 @@
 
 <style lang="postcss">
 	.card {
-		@apply flex flex-col p-10 rounded-3xl bg-zinc-100 justify-between items-center shadow-xl shadow-orange-200 space-y-2;
+		@apply flex flex-col p-10 rounded-3xl bg-zinc-50 justify-between items-center shadow-xl shadow-orange-200 space-y-2;
 	}
 </style>

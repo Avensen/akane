@@ -21,7 +21,7 @@
 
 <main class="relative overflow-x-hidden">
 	<!-- Hero -->
-	<section class="pt-16 bg-gradient-to-b from-zinc-100 via-zinc-100 to-secondary/50">
+	<section class="pt-16 bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50">
 		<div class="max-w-8xl pt-14 mx-auto">
 			<div class="px-8">
 				<h3 class="uppercase text-center mb-8">
@@ -48,7 +48,7 @@
 	<!-- /Section 1 -->
 
 	<!-- Section 2 -->
-	<section class="bg-gradient-to-b from-zinc-100 via-zinc-100 to-secondary/50 py-12">
+	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 py-12">
 		<div class="max-w-7xl mx-auto">
 			<div class="grid grid-cols-1 gap-8">
 				{#each adCardsInfo as item, i}
@@ -113,7 +113,7 @@
 	<!-- /Section 5 -->
 
 	<!-- Section 6 -->
-	<section class="bg-gradient-to-b from-zinc-100 via-zinc-100 to-secondary/50">
+	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50">
 		<div class="max-w-7xl mx-auto py-20 flex flex-col space-y-16">
 			<div class="text-center px-16">
 				<h1 class="uppercase text-2xl"><b>Tus redes sociales</b> son tu mejor tarjeta de presentación</h1>

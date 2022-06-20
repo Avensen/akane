@@ -24,7 +24,7 @@
 		border border-gray-300
 		rounded-md
 		leading-5
-		bg-zinc-100
+		bg-zinc-50
 		placeholder-gray-500
 		focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-primary/60 focus:border-primary/60
 		sm:text-sm;
