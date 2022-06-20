@@ -24,8 +24,7 @@ const config = {
 		rtl: false,
 		prefix: '',
 		darkTheme: 'dark'
-	},
-	darkMode: 'class'
+	}
 };
 
 module.exports = config;
