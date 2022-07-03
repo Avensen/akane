@@ -1,5 +1,5 @@
 <script>
-	import Carousel from '$lib/components/Carousel.svelte';
+	import Slider from '$lib/components/Slider.svelte';
 	import IconCard from '$lib/components/IconCard.svelte';
 	import AdCard from '$lib/components/AdCard.svelte';
 	import Button from '$lib/components/Button.svelte';
@@ -36,7 +36,6 @@
 				</ul>
 				<div class="pt-20 flex">
 					<Horizontal />
-					<!-- <img src="banner_hero.png" class="w-[450px] hidden lg:inline-block lg:absolute z-50 -bottom-20 left-[15%]" alt="carousel item" /> -->
 				</div>
 			</div>
 			<div />
@@ -120,7 +119,7 @@
 				<p>Atrae a tus clientes y mantenlos involucrados</p>
 			</div>
 			<div class="flex justify-center px-8">
-				<Carousel />
+				<Slider />
 			</div>
 		</div>
 	</section>

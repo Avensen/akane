@@ -15,13 +15,16 @@
 	];
 
 	let menuOpen = false;
+	let y = 0;
 
 	function toggleMenu() {
 		menuOpen = !menuOpen;
 	}
 </script>
 
-<nav class="bg-zinc-50/90 backdrop-blur-md uppercase">
+<svelte:window bind:scrollY={y} />
+
+<nav class="bg-zinc-50/90 backdrop-blur-md uppercase {y > 60 && 'shadow-sm'}">
 	<div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
 		<div class="flex justify-between h-16">
 			<div class="flex px-2 lg:px-0">
