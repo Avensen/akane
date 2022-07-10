@@ -26,7 +26,7 @@
 {#if variant == 'secondary'}
 	<div class="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-0 space-y-6 lg:space-y-0">
 		<div class="basis-1/2 flex justify-center items-center">
-			<img src={image.src} class="shrink-0 w-96" alt={image.alt} />
+			<img src={image.src} class="shrink-0 w-[500px]" alt={image.alt} />
 		</div>
 		<div class="basis-1/2 text-center lg:text-left flex flex-col space-y-4 lg:pl-16">
 			<h1 class="font-black text-2xl">{title}</h1>

@@ -62,7 +62,7 @@
 	<!-- /Section 1 -->
 
 	<!-- Section 2 -->
-	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 py-32">
+	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 pt-20 pb-32">
 		<div class="max-w-7xl mx-auto">
 			<div class="grid grid-cols-1 gap-8">
 				{#each adCardsInfo as item, i}
@@ -79,9 +79,9 @@
 			<div class="max-w-7xl mx-auto lg:relative">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
 					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center text-white px-8 py-14 space-y-1">
-						<h1 class="text-3xl font-extralight">¿Eres influencer?</h1>
-						<h1 class="text-3xl font-extralight">¡Puedes <b>ganar una web gratis!</b></h1>
-						<p class="text-xl font-extralight">Puedes ganar una web profesional, diseñada por un equipo experimentado <b>¡y 100% gratis!</b></p>
+						<h1 class="text-2xl font-extralight">¿Eres influencer?</h1>
+						<h1 class="text-2xl font-extralight">¡Puedes <b>ganar una web gratis!</b></h1>
+						<p class="text-md font-extralight">Puedes ganar una web profesional, diseñada por un equipo experimentado <b>¡y 100% gratis!</b></p>
 						<span class="pt-4">
 							<Button text="Me interesa" href="" variant="tertiary" />
 						</span>
