@@ -41,7 +41,7 @@
 </script>
 
 <div id="carousel-container" class="w-full overflow-x-hidden flex flex-col gap-4">
-	<div id="carousel-images" class="flex justify-center items-center flex-nowrap gap-56">
+	<div id="carousel-images" class="flex justify-center items-center flex-nowrap">
 		{#each images as { id, src, alt, text } (id)}
 			<div animate:flip={{ duration: 350 }} class="flex justify-center items-center w-full">
 				<img {id} {src} {alt} />

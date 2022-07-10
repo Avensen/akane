@@ -5,10 +5,10 @@
 	export let target = '';
 
 	let variants = {
-		base: 'uppercase py-2 px-8 rounded-xl text-sm inline-block font-medium',
-		primary: 'bg-primary text-white shadow-lg shadow-primary/40',
+		base: 'uppercase py-3 px-10 rounded-xl text-sm inline-block font-medium',
+		primary: 'bg-primary text-white',
 		secondary: 'bg-secondary text-primary',
-		tertiary: 'bg-white text-primary shadow-lg shadow-primary/40'
+		tertiary: 'bg-white text-primary'
 	};
 </script>
 

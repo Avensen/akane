@@ -1,30 +1,31 @@
 <script>
 	let images = [
 		{
-			src: 'https://api.lorem.space/image/furniture?w=250&h=180&hash=8B7BCDC2',
+			src: '/promo/promo-slide-1.png',
 			alt: ''
 		},
 		{
-			src: 'https://api.lorem.space/image/furniture?w=250&h=180&hash=500B67FB',
+			src: '/promo/promo-slide-2.png',
 			alt: ''
 		},
 		{
-			src: 'https://api.lorem.space/image/furniture?w=250&h=180&hash=A89D0DE6',
+			src: '/promo/promo-slide-3.png',
 			alt: ''
 		}
 	];
 </script>
 
-<div class="example">
-	<ul class="flex overflow-x-auto gap-6 snap-x snap-center snap-mandatory">
+<div class="">
+	<ul class="flex overflow-x-auto gap-6 snap-x snap-center snap-mandatory example">
 		{#each images as { src, alt }}
-			<li class="shrink-0 snap-center">
-				<img {src} {alt} class="rounded-md" />
+			<li class="shrink-0 snap-center flex">
+				<span class="flex justify-center items-center">
+					<img {src} {alt} class="rounded-md w-96 " />
+				</span>
 			</li>
 		{/each}
 	</ul>
 </div>
-
 
 <style lang="postcss">
 	.example::-webkit-scrollbar {

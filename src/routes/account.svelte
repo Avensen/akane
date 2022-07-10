@@ -22,7 +22,7 @@
 	}
 </script>
 
-<main class="bg-slate-800 flex flex-col justify-start items-center gap-4">
+<main class="bg-slate-800 flex flex-col justify-start items-center gap-4 pt-24">
 	<div class="text-white grid place-items-center">
 		{slug}
 	</div>
