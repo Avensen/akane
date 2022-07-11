@@ -9,8 +9,7 @@
 <div class="card">
 	<div class="flex flex-col justify-center items-center gap-4">
 		<span class="h-20 flex justify-end items-center">
-			<!-- {@html icon} -->
-			¡Hola!
+			{@html icon}
 		</span>
 		<h3 class="uppercase font-bold">{title}</h3>
 	</div>

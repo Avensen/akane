@@ -10,7 +10,7 @@ export const iconCardsInfo = [
 		descriptions: ['Creación de una web profesional', 'Marketing de contenido', 'Creación de identidad de marca']
 	},
 	{
-		icon: '<i class="bi bi-hdd-network text-primary text-7xl" />',
+		icon: '<i class="bi bi-hdd-network text-primary text-7xl"></i>',
 		title: 'Infraestructura',
 		descriptions: ['Compra de dominio y hosting', 'Servidor de correo empresarial', 'Administración de alojamiento']
 	}
