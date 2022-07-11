@@ -14,7 +14,7 @@
 	let name = $page.url.searchParams.get('name');
 
 	console.log($page.url.searchParams);
-
+	// some text
 	async function click() {
 		let res = await fetch('https://jsonplaceholder.typicode.com/todos/1');
 		let data = await res.json();
