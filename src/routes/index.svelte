@@ -5,6 +5,7 @@
 	import Button from '$lib/components/Button.svelte';
 	import BlogCard from '$lib/components/BlogCard.svelte';
 	import Tile from '$lib/components/Tile.svelte';
+	import Bootstrap from '$lib/components/Horizontal/Bootstrap.svelte';
 
 	import { iconCardsInfo } from '$lib/pseudo/info';
 	import { adCardsInfo } from '$lib/pseudo/ad';
@@ -39,6 +40,9 @@
 	</section>
 	<!-- Hero -->
 
+	<section class="py-20">
+		<Bootstrap></Bootstrap>
+	</section>
 	<!-- Section 1 -->
 	<section class="" style="background-image: url(/bg-section-1.jpg); background-size: cover;">
 		<div class="bg-gradient-to-t from-primary/50 to-secondary/50">
