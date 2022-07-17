@@ -168,10 +168,12 @@
 	<section>
 		<div class="">
 			<h1 class="text-center text-xl pt-16 pb-4"><b class="font-bold">Akane Digital</b> te asegura...</h1>
-			<div class="grid grid-cols-2 lg:grid-cols-5" style="background-image: url('/bg-footer.jpg'); background-size: cover;">
-				{#each tilesInfo as item}
-					<Tile {...item} />
-				{/each}
+			<div style="background-image: url('/bg-footer.jpg'); background-size: cover;">
+				<div class="grid grid-cols-2 lg:grid-cols-5 bg-gradient-to-t from-black/90 to-black/10">
+					{#each tilesInfo as item}
+						<Tile {...item} />
+					{/each}
+				</div>
 			</div>
 		</div>
 	</section>
