@@ -9,22 +9,12 @@ const config = {
 			colors: {
 				primary: '#FF4D00',
 				button: '#FF863b',
-				secondary: '#FFBD6E'
+				secondary: '#FFBD6E',
+				dark: '#272727'
 			}
-		}
+		},
 	},
-
-	// plugins: [require('daisyui')],
-	// daisyui: {
-	// 	styled: false,
-	// 	themes: false,
-	// 	base: true,
-	// 	utils: true,
-	// 	logs: true,
-	// 	rtl: false,
-	// 	prefix: '',
-	// 	darkTheme: 'dark'
-	// }
+	darkMode: 'class',
 };
 
 module.exports = config;

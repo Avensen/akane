@@ -61,7 +61,7 @@
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section> --> 
 	<!-- /Section 1 -->
 
 	<!-- Section 2 -->
@@ -150,16 +150,20 @@
 		<div class="bg-gradient-to-t from-primary/50 to-secondary/50">
 			<div class="max-w-7xl mx-auto lg:relative">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
-					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center text-white px-8 py-14 space-y-1">
-						<h1 class="text-2xl font-normal">¡Hola, Stephanie Anormal!</h1>
-						<h1 class="text-2xl font-extralight">Ya tienes una idea de negocio pero,</h1>
-						<p class="text-2xl font-bold">¿sabes cómo ponerla en marcha?</p>
+					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center text-white px-20 py-14 space-y-2">
+						<h1 class="text-4xl font-bold">¿Hosting?</h1>
+						<h1 class="text-2xl font-extralight">¿Qué es eso?</h1>
+						<div class="flex items-center">
+							<div class="bg-white h-[4px] w-12"></div>
+							<div class="bg-white h-px w-12"></div>
+							<div class="bg-white h-px w-12"></div>
+						</div>
 						<span class="pt-4">
-							<Button text="Reservar cita" href="" variant="tertiary" />
+							<Button text="Recibir ayuda" href="" variant="tertiary" />
 						</span>
 					</div>
 					<div class="flex justify-center">
-						<img src="/image-section-7.png" alt="" class="lg:absolute bottom-0 w-[500px]" />
+						<img src="/image-section-7.png" alt="" class="bottom-0 w-[500px] pt-6" />
 					</div>
 				</div>
 			</div>

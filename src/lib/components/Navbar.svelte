@@ -28,21 +28,20 @@
 
 <svelte:window bind:scrollY={y} />
 
-<nav class="bg-zinc-50/90 backdrop-blur-md {y > 60 && 'shadow-sm'}">
+<nav class="bg-zinc-50/90 dark:bg-dark backdrop-blur-md {y > 60 && 'shadow-sm'}">
 	<div class="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
 		<div class="flex justify-between h-16">
 			<div class="flex px-2 lg:px-0">
 				<div class="flex-shrink-0 flex items-center mr-8">
-					<img class="block lg:hidden h-8 w-auto" src="logo.svg" alt="Akane" />
-					<img class="hidden lg:block h-8 w-auto" src="logo.svg" alt="Akane" />
+					<img class="block h-8 w-auto" src="logo.svg" alt="Akane" on:click="{() => {localStorage.theme = 'dark'}}"/>
 				</div>
 				<div class="hidden lg:ml-6 lg:flex lg:space-x-8">
 					{#each navigation as { name, href }}
 						<a
 							{href}
-							class="{pathname == href
+							class="{pathname === href
 								? 'text-primary border-primary/70 font-semibold'
-								: 'text-gray-500 font-normal'} border-transparent hover:border-primary/70 inline-flex items-center pt-1 border-b-[3px] text-sm transition ease-in-out duration-150"
+								: 'text-gray-500 font-normal border-transparent'} hover:border-primary/70 inline-flex items-center pt-1 border-b-[3px] text-sm transition ease-in-out duration-150"
 						>
 							{name}
 						</a>
