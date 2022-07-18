@@ -33,15 +33,17 @@
 		<div class="flex justify-between h-16">
 			<div class="flex px-2 lg:px-0">
 				<div class="flex-shrink-0 flex items-center mr-8">
-					<img class="block h-8 w-auto" src="logo.svg" alt="Akane" on:click="{() => {localStorage.theme = 'dark'}}"/>
+					<a href="/">
+						<img class="block h-8 w-auto" src="logo.svg" alt="Akane" on:click="{() => {localStorage.theme = 'dark'}}"/>
+					</a>
 				</div>
 				<div class="hidden lg:ml-6 lg:flex lg:space-x-8">
 					{#each navigation as { name, href }}
 						<a
 							{href}
 							class="{pathname === href
-								? 'text-primary border-primary/70 font-semibold'
-								: 'text-gray-500 font-normal border-transparent'} hover:border-primary/70 inline-flex items-center pt-1 border-b-[3px] text-sm transition ease-in-out duration-150"
+								? 'text-primary dark:text-white border-primary/70 dark:border-white font-semibold'
+								: 'text-gray-500 dark:text-gray-100 font-normal border-transparent hover:border-primary/70 dark:hover:border-gray-100 dark:hover:text-white'} inline-flex items-center pt-1 border-b-[3px] text-sm transition ease-in-out duration-150"
 						>
 							{name}
 						</a>

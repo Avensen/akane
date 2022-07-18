@@ -21,10 +21,10 @@
 
 <main class="relative overflow-x-hidden">
 	<!-- Hero -->
-	<section class="pt-16 pb-32 bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50">
+	<section class="pt-16 pb-32 bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 dark:bg-dark dark:from-dark dark:to-dark/70">
 		<div class="max-w-8xl pt-14 mx-auto">
 			<div class="px-8">
-				<h3 class="text-center mb-8 text-xl">
+				<h3 class="text-center mb-8 text-xl dark:text-white">
 					{@html $t('home.hero.title')}
 				</h3>
 				<ul class="grid grid-cols-1 gap-16 mx-2 sm:mx-24 lg:grid-cols-3 place-content-center">
@@ -40,32 +40,13 @@
 	</section>
 	<!-- Hero -->
 
-	<Swapper/>
-
+	
 	<!-- Section 1 -->
-	<!-- <section class="" style="background-image: url(/bg-section-1.jpg); background-size: cover;">
-		<div class="bg-gradient-to-t from-primary/50 to-secondary/50">
-			<div class="max-w-7xl mx-auto lg:relative">
-				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
-					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center text-white px-8 py-14 space-y-1">
-						<h1 class="text-2xl font-normal">¡Hola, Stephanie Anormal!</h1>
-						<h1 class="text-2xl font-extralight">Ya tienes una idea de negocio pero,</h1>
-						<p class="text-2xl font-bold">¿sabes cómo ponerla en marcha?</p>
-						<span class="pt-4">
-							<Button text="Reservar cita" href="" variant="tertiary" />
-						</span>
-					</div>
-					<div class="flex justify-center">
-						<img src="/image-section-1.png" alt="" class="lg:absolute bottom-0 w-[500px]" />
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> --> 
+	<Swapper/>
 	<!-- /Section 1 -->
 
 	<!-- Section 2 -->
-	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 pt-20 pb-32">
+	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 dark:bg-dark dark:from-dark dark:to-dark/70 pt-20 pb-32">
 		<div class="max-w-7xl mx-auto">
 			<div class="grid grid-cols-1 gap-8">
 				{#each adCardsInfo as item, i}
@@ -99,7 +80,7 @@
 	<!-- /Section 3 -->
 
 	<!-- Section 4 -->
-	<section class="">
+	<section class="dark:text-white dark:bg-dark">
 		<div class="max-w-7xl mx-auto py-24">
 			<h3 class="text-2xl text-center">
 				<b class="font font-extrabold">Un blog</b> pensado para emprendedores
@@ -132,7 +113,7 @@
 	<!-- /Section 5 -->
 
 	<!-- Section 6 -->
-	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50">
+	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 dark:text-white dark:bg-dark dark:from-dark dark:to-dark/70">
 		<div class="max-w-7xl mx-auto py-20 flex flex-col space-y-16">
 			<div class="text-center px-16">
 				<h1 class="text-2xl"><b>Tus redes sociales</b> son tu mejor tarjeta de presentación</h1>
@@ -173,7 +154,7 @@
 
 	<!-- Section 8 -->
 	<section>
-		<div class="">
+		<div class="dark:text-white dark:bg-dark">
 			<h1 class="text-center text-xl pt-16 pb-4"><b class="font-bold">Akane Digital</b> te asegura...</h1>
 			<div style="background-image: url('/bg-footer.jpg'); background-size: cover;">
 				<div class="grid grid-cols-2 lg:grid-cols-5 bg-gradient-to-t from-black/90 to-black/10">

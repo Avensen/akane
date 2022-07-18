@@ -14,17 +14,16 @@
 				/>
 			</svg>
 		</div>
-		<input id="search" name="search" spellcheck="false" class="search-input" placeholder="Buscar" type="search" />
+		<input id="search" name="search" spellcheck="false" class="search-input bg-zinc-50 dark:bg-dark dark:text-white border-gray-300 dark:border-gray-500" placeholder="Buscar" type="search" />
 	</div>
 </div>
 
 <style lang="postcss">
 	.search-input {
 		@apply block w-full pl-10 pr-3 py-2
-		border border-gray-300
+		border 
 		rounded-md
 		leading-5
-		bg-zinc-50
 		placeholder-gray-500
 		focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-primary/60 focus:border-primary/60
 		sm:text-sm;

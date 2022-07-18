@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { page } from '$app/stores';
 
 	// import { searchParams } from '$lib/hooks/pageParams'
@@ -51,4 +51,4 @@
 	>
 		fetch
 	</button>
-</section>
+</section> -->

@@ -8,10 +8,10 @@
 </script>
 
 {#if variant == 'primary'}
-	<div class="flex flex-col-reverse lg:flex-row justify-between items-center px-4 lg:px-0 space-y-6 lg:space-y-0">
+	<div class="flex flex-col-reverse lg:flex-row justify-between items-center px-4 lg:px-0 space-y-6 lg:space-y-0 dark:text-white">
 		<div class="basis-1/2 text-center lg:text-right flex flex-col space-y-4 lg:pr-16">
 			<h1 class="font-black text-2xl inline">{title}</h1>
-			<p class="mx-8 lg:mx-0">{text}</p>
+			<p class="mx-8 lg:mx-0 dark:text-gray-100">{text}</p>
 			<div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 lg:justify-end py-8 px-16 lg:px-0">
 				<Button text="Ver Portafolio" variant="secondary" />
 				<Button text="Ver Oferta" variant="primary" />
@@ -24,12 +24,12 @@
 {/if}
 <!-- Variant Line -->
 {#if variant == 'secondary'}
-	<div class="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-0 space-y-6 lg:space-y-0">
+	<div class="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-0 space-y-6 lg:space-y-0 dark:text-white">
 		<div class="basis-1/2 flex justify-center items-center">
 			<img src={image.src} class="shrink-0 w-[500px]" alt={image.alt} />
 		</div>
 		<div class="basis-1/2 text-center lg:text-left flex flex-col space-y-4 lg:pl-16">
-			<h1 class="font-black text-2xl">{title}</h1>
+			<h1 class="font-black text-2xl dark:text-gray-100">{title}</h1>
 			<p class="mx-8 lg:mx-0">{text}</p>
 			<div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-8 lg:justify-start py-8 px-16 lg:px-0">
 				<Button text="Ver Portafolio" variant="secondary" />

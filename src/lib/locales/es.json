@@ -1,13 +1,13 @@
 {
+	"nav": {
+		"home": "Inicio",
+		"account": "Tu Cuenta",
+		"services": "Servicios",
+		"pricing": "Cotización",
+		"blog": "Blog",
+		"more": "Más"
+	},
 	"home": {
-		"nav": {
-			"home": "Inicio",
-			"account": "Tu Cuenta",
-			"services": "Servicios",
-			"pricing": "Cotización",
-			"blog": "Blog",
-			"more": "Más"
-		},
 		"hero": {
 			"title": "<b>Te ayudamos</b> con tu negocio"
 		}
