@@ -6,6 +6,7 @@
 	import BlogCard from '$lib/components/BlogCard.svelte';
 	import Tile from '$lib/components/Tile.svelte';
 	import Swapper from '$lib/components/Swapper.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 
 	import { iconCardsInfo } from '$lib/pseudo/info';
 	import { adCardsInfo } from '$lib/pseudo/ad';
@@ -127,7 +128,7 @@
 	<!-- /Section 6 -->
 
 	<!-- Section 7 -->
-	<section class="" style="background-image: url(/bg-section-7.jpg); background-size: cover;">
+	<section class="" style="background-image: url(/bg-section-7.png); background-size: cover;">
 		<div class="bg-gradient-to-t from-primary/50 to-secondary/50">
 			<div class="max-w-7xl mx-auto lg:relative">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
@@ -166,4 +167,5 @@
 		</div>
 	</section>
 	<!-- /Section 8 -->
+	<Footer />
 </main>
