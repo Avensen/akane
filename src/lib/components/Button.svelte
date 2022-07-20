@@ -8,7 +8,7 @@
 		base: 'uppercase py-3 px-10 rounded-xl text-sm inline-block font-medium',
 		primary: 'bg-primary text-white',
 		secondary: 'bg-secondary text-primary',
-		tertiary: 'bg-white text-primary'
+		tertiary: 'bg-white text-primary dark:bg-primary dark:text-white'
 	};
 </script>
 

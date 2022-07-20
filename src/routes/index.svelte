@@ -6,7 +6,7 @@
 	import BlogCard from '$lib/components/BlogCard.svelte';
 	import Tile from '$lib/components/Tile.svelte';
 	import Swapper from '$lib/components/Swapper.svelte';
-	import Footer from '$lib/components/Footer.svelte';
+	import Footer from '$lib/components/Footer/Footer.svelte';
 
 	import { iconCardsInfo } from '$lib/pseudo/info';
 	import { adCardsInfo } from '$lib/pseudo/ad';
@@ -59,11 +59,11 @@
 	<!-- /Section 2 -->
 
 	<!-- Section 3 -->
-	<section class="" style="background-image: url(bg-section-2.jpg); background-size: cover;">
-		<div class="bg-gradient-to-t from-primary/50 to-secondary/50">
+	<section class="text-white dark:text-dark" style="background-image: url(bg-section-2.png); background-size: cover;">
+		<div class="bg-gradient-to-t from-primary/50 to-secondary/50 dark:from-zinc-100/90 dark:to-zinc-50/90">
 			<div class="max-w-7xl mx-auto lg:relative">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
-					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center text-white px-8 py-14 space-y-1">
+					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center px-8 py-14 space-y-1">
 						<h1 class="text-2xl font-extralight">¿Eres influencer?</h1>
 						<h1 class="text-2xl font-extralight">¡Puedes <b>ganar una web gratis!</b></h1>
 						<p class="text-md font-extralight">Puedes ganar una web profesional, diseñada por un equipo experimentado <b>¡y 100% gratis!</b></p>
@@ -96,8 +96,8 @@
 	<!-- /Section 4 -->
 
 	<!-- Section 5 -->
-	<section class=" text-white" style:background="url('/client-support.jpg')">
-		<div class="mx-auto bg-gradient-to-t from-black/80 to-zinc-600/50">
+	<section class=" text-white dark:text-dark" style:background="url('/client-support.png')">
+		<div class="mx-auto bg-gradient-to-t from-black/80 to-zinc-600/50 dark:from-zinc-100/80 dark:to-zinc-50/80">
 			<div class="max-w-4xl mx-auto flex flex-col text-center items-center justify-center space-y-4 p-12">
 				<span class="text-2xl font-bold">
 					<h1>Tu cliente</h1>
@@ -129,16 +129,16 @@
 
 	<!-- Section 7 -->
 	<section class="" style="background-image: url(/bg-section-7.png); background-size: cover;">
-		<div class="bg-gradient-to-t from-primary/50 to-secondary/50">
+		<div class="bg-gradient-to-t from-primary/50 to-secondary/50 dark:from-zinc-100/80 dark:to-zinc-50/80">
 			<div class="max-w-7xl mx-auto lg:relative">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
-					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center text-white px-20 py-14 space-y-2">
+					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center text-white dark:text-dark px-20 py-14 space-y-2">
 						<h1 class="text-4xl font-bold">¿Hosting?</h1>
 						<h1 class="text-2xl font-extralight">¿Qué es eso?</h1>
 						<div class="flex items-center">
-							<div class="bg-white h-[4px] w-12"></div>
-							<div class="bg-white h-px w-12"></div>
-							<div class="bg-white h-px w-12"></div>
+							<div class="bg-white dark:bg-dark h-[4px] w-12"></div>
+							<div class="bg-white dark:bg-dark h-px w-12"></div>
+							<div class="bg-white dark:bg-dark h-px w-12"></div>
 						</div>
 						<span class="pt-4">
 							<Button text="Recibir ayuda" href="" variant="tertiary" />
@@ -158,7 +158,7 @@
 		<div class="dark:text-white dark:bg-dark">
 			<h1 class="text-center text-xl pt-16 pb-4"><b class="font-bold">Akane Digital</b> te asegura...</h1>
 			<div style="background-image: url('/bg-footer.jpg'); background-size: cover;">
-				<div class="grid grid-cols-2 lg:grid-cols-5 bg-gradient-to-t from-black/90 to-black/10">
+				<div class="grid grid-cols-2 lg:grid-cols-5 bg-gradient-to-t from-dark/90 to-dark/10">
 					{#each tilesInfo as item}
 						<Tile {...item} />
 					{/each}
@@ -167,5 +167,6 @@
 		</div>
 	</section>
 	<!-- /Section 8 -->
+
 	<Footer />
 </main>
