@@ -19,7 +19,7 @@
 	});
 
 	onMount(() => {
-		localStorage.theme = 'dark';
+		localStorage.theme = '';
 		theme = localStorage.theme;
 	});
 </script>

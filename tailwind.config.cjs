@@ -1,6 +1,8 @@
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-
+	plugins: [
+      require('@tailwindcss/forms'),
+    ],
 	theme: {
 		fontFamily: {
 			poppins: ['"Poppins"', 'sans-serif']

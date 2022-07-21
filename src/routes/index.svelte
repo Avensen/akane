@@ -7,6 +7,7 @@
 	import Tile from '$lib/components/Tile.svelte';
 	import Swapper from '$lib/components/Swapper.svelte';
 	import Footer from '$lib/components/Footer/Footer.svelte';
+	import Features from '$lib/components/Features/Features.svelte';
 
 	import { iconCardsInfo } from '$lib/pseudo/info';
 	import { adCardsInfo } from '$lib/pseudo/ad';
@@ -47,6 +48,7 @@
 	<!-- /Section 1 -->
 
 	<!-- Section 2 -->
+	<Features />
 	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 dark:bg-dark dark:from-dark dark:to-dark/70 pt-20 pb-32">
 		<div class="max-w-7xl mx-auto">
 			<div class="grid grid-cols-1 gap-8">

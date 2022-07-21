@@ -1,4 +1,7 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
+<script>
+  import Select from "../Select.svelte";
+</script>
+
 <footer class="bg-white dark:bg-dark" aria-labelledby="footer-heading">
    <h2 id="footer-heading" class="sr-only">Footer</h2>
    <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
@@ -132,10 +135,7 @@
      </div>
      <div class="mt-12 border-t border-gray-200 dark:border-gray-500 pt-8 flex justify-between">
        <p class="text-base inline text-gray-400 xl:text-left">&copy; 2022 Akane Digital. Todos los derechos reservados</p>
-       <select class="inline" name="theme" id="theme">
-        <option value="dark">dark</option>
-        <option value="light">light</option>
-       </select>
+       <Select></Select>
      </div>
    </div>
  </footer>

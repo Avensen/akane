@@ -1,7 +1,7 @@
 <script>
 	export let text = '';
 	export let variant = 'primary';
-	export let href = '';
+	export let href = '/';
 	export let target = '';
 
 	let variants = {
