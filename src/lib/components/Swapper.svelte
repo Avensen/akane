@@ -17,7 +17,7 @@
 
 <div class="carousel text-white dark:text-dark">
 	<section class="" style="background-image: url(/bg-section-1.png); background-size: cover;">
-		<div class="bg-gradient-to-t from-primary/50 to-secondary/50 dark:from-zinc-100/90 dark:to-zinc-50/90">
+		<div class="bg-gradient-to-t from-primary/90 to-secondary/90 dark:from-zinc-100/90 dark:to-zinc-50/90">
 			<div class="max-w-7xl mx-auto lg:relative">
 				{#if currentSlide === 0}
 					<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16" in:fade={{ delay: 10, duration: 3000, easing: cubicOut}}>

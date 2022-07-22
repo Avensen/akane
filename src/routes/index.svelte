@@ -48,7 +48,7 @@
 	<!-- /Section 1 -->
 
 	<!-- Section 2 -->
-	<Features />
+	<!-- <Features /> -->
 	<section class="bg-gradient-to-b from-zinc-50 via-zinc-50 to-secondary/50 dark:bg-dark dark:from-dark dark:to-dark/70 pt-20 pb-32">
 		<div class="max-w-7xl mx-auto">
 			<div class="grid grid-cols-1 gap-8">
@@ -62,7 +62,7 @@
 
 	<!-- Section 3 -->
 	<section class="text-white dark:text-dark" style="background-image: url(bg-section-2.png); background-size: cover;">
-		<div class="bg-gradient-to-t from-primary/50 to-secondary/50 dark:from-zinc-100/90 dark:to-zinc-50/90">
+		<div class="bg-gradient-to-t from-primary/90 to-secondary/90 dark:from-zinc-100/90 dark:to-zinc-50/90">
 			<div class="max-w-7xl mx-auto lg:relative">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
 					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center px-8 py-14 space-y-1">
@@ -131,7 +131,7 @@
 
 	<!-- Section 7 -->
 	<section class="" style="background-image: url(/bg-section-7.png); background-size: cover;">
-		<div class="bg-gradient-to-t from-primary/50 to-secondary/50 dark:from-zinc-100/80 dark:to-zinc-50/80">
+		<div class="bg-gradient-to-t from-primary/90 to-secondary/90 dark:from-zinc-100/80 dark:to-zinc-50/80">
 			<div class="max-w-7xl mx-auto lg:relative">
 				<div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:px-16">
 					<div class="text-center lg:text-left lg:items-start flex flex-col justify-center items-center text-white dark:text-dark px-20 py-14 space-y-2">
