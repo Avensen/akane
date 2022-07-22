@@ -4,6 +4,7 @@ specifiers:
   '@popperjs/core': ^2.11.5
   '@rgossiaux/svelte-headlessui': ^1.0.2
   '@sveltejs/adapter-auto': next
+  '@sveltejs/adapter-node': 1.0.0-next.83
   '@sveltejs/kit': next
   '@sveltestack/svelte-query': ^1.6.0
   '@tailwindcss/forms': ^0.5.2
@@ -27,6 +28,7 @@ specifiers:
 
 dependencies:
   '@popperjs/core': 2.11.5
+  '@sveltejs/adapter-node': 1.0.0-next.83
   '@sveltestack/svelte-query': 1.6.0
   bootstrap: 5.2.0-beta1_@popperjs+core@2.11.5
   bootstrap-icons: 1.8.3
@@ -228,6 +230,12 @@ packages:
       set-cookie-parser: 2.5.0
       tiny-glob: 0.2.9
     dev: true
+
+  /@sveltejs/adapter-node/1.0.0-next.83:
+    resolution: {integrity: sha512-rgvb6wPUr/OAZysNoTxYTmyE2DUNWxzQOCJt9Fs+cPoqGXavugSssxd9lYQkcH3wMmmDUoWEVsWm8ifXXLjZZg==}
+    dependencies:
+      tiny-glob: 0.2.9
+    dev: false
 
   /@sveltejs/adapter-vercel/1.0.0-next.65:
     resolution: {integrity: sha512-RV3HL7Ic7pGgIoBSHPwN1pBX96Km1X683oHImPHAKX9h/WOvJZ3bY5+IWNRcR8tx9rPB5gfMRg+msvPSBr3RVw==}
