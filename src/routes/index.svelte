@@ -1,3 +1,4 @@
+<!-- https://kit.svelte.dev/docs/adapters -->
 <script>
 	import Slider from '$lib/components/Slider.svelte';
 	import IconCard from '$lib/components/IconCard.svelte';
